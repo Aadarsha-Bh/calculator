@@ -1,0 +1,94 @@
+<!--This is going to be a calculator made by-
+
+AADARSHA BHATTA
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <div class="simpleCalc">
+            <div class = "details">
+                
+           </div>
+
+           <div class = "calc">
+                <button onclick ='calcEvent("=")'>Calc</button>
+           </div>
+
+           <div style="padding-top: 5px;" >
+           
+                <button onclick="clickEvent(1)">
+                    1
+                </button>
+                <button onclick="clickEvent(2)">
+                    2
+                </button>
+                <button onclick="clickEvent(3)">
+                    3
+                </button>
+                <button onclick="calcEvent('+')">
+                    +
+                </button>
+           </div>
+
+           <div style="padding-top: 5px;">
+                <button onclick="clickEvent(4)">
+                    4
+                </button>
+                <button onclick="clickEvent(5)">
+                    5
+                </button>
+                <button onclick="clickEvent(6)">
+                    6
+                </button>
+                <button onclick="calcEvent('-')">
+                    -
+                </button>
+            </div>
+
+            <div style="padding-top: 5px;">
+                <button onclick="clickEvent(7)">
+                    7
+                </button>
+                <button onclick="clickEvent(8)">
+                    8
+                </button>
+                <button onclick="clickEvent(9)">
+                    9
+                </button>
+                <button onclick="calcEvent('*')">
+                    *
+                </button>
+            </div>
+
+            <div style="padding-top: 5px;">
+                <button onclick="clickEvent('.')">
+                    .
+                </button>
+                <button onclick="clickEvent(0)">
+                    0
+                </button>
+                <button onclick="clickEvent('x10x')">
+                    x10x
+                </button>
+                <button onclick="calcEvent('/')">
+                    /
+                </button>
+            </div>
+        </div>
+        </tr>
+    </table>
+
+    <script src="script/main.js"></script>
+</body>
+</html>
