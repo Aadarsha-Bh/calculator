@@ -1,9 +1,8 @@
 <!--This is going to be a calculator made by-
-
 AADARSHA BHATTA
 
--->
 
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,73 +20,84 @@ AADARSHA BHATTA
                 
            </div>
 
+
            <div class = "calc">
                 <button onclick ='calcEvent("=")'>Calc</button>
+                <button onclick ='calcEvent("C")'>Clear</button>
+                <button onclick ='calcEvent("D")'>DEL</button>
+                <button onclick ='calcEvent("%")' class = "operator">%</button>
+
+
            </div>
+
 
            <div style="padding-top: 5px;" >
            
-                <button onclick="clickEvent(1)">
+                <button onclick="clickEvent(1)" class = "value">
                     1
                 </button>
-                <button onclick="clickEvent(2)">
+                <button onclick="clickEvent(2)" class = "value">
                     2
                 </button>
-                <button onclick="clickEvent(3)">
+                <button onclick="clickEvent(3)" class = "value">
                     3
                 </button>
-                <button onclick="calcEvent('+')">
+                <button onclick="calcEvent('+')" class = "operator">
                     +
                 </button>
            </div>
 
+
            <div style="padding-top: 5px;">
-                <button onclick="clickEvent(4)">
+                <button onclick="clickEvent(4)" class = "value">
                     4
                 </button>
-                <button onclick="clickEvent(5)">
+                <button onclick="clickEvent(5)" class = "value">
                     5
                 </button>
-                <button onclick="clickEvent(6)">
+                <button onclick="clickEvent(6)" class = "value">
                     6
                 </button>
-                <button onclick="calcEvent('-')">
+                <button onclick="calcEvent('-')" class = "operator">
                     -
                 </button>
             </div>
 
+
             <div style="padding-top: 5px;">
-                <button onclick="clickEvent(7)">
+                <button onclick="clickEvent(7)" class = "value">
                     7
                 </button>
-                <button onclick="clickEvent(8)">
+                <button onclick="clickEvent(8)" class = "value">
                     8
                 </button>
-                <button onclick="clickEvent(9)">
+                <button onclick="clickEvent(9)" class = "value">
                     9
                 </button>
-                <button onclick="calcEvent('*')">
+                <button onclick="calcEvent('*')" class = 'operator'>
                     *
                 </button>
             </div>
 
+
             <div style="padding-top: 5px;">
-                <button onclick="clickEvent('.')">
+                <button onclick="clickEvent('.')" style ="font-size: 20px; padding-bottom: 20px;" class = "value">
                     .
                 </button>
-                <button onclick="clickEvent(0)">
+                <button onclick="clickEvent(0)" class = "value">
                     0
                 </button>
-                <button onclick="clickEvent('x10x')">
-                    x10x
+                <button onclick="clickEvent('x10')"class = "value">
+                    x10
                 </button>
-                <button onclick="calcEvent('/')">
+                <button onclick="calcEvent('/')" class = "operator">
                     /
                 </button>
             </div>
         </div>
         </tr>
     </table>
+
 
     <script src="script/main.js"></script>
 </body>
